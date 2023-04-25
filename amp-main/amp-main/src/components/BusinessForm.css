@@ -1,0 +1,112 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'PT Sans', sans-serif;
+  }
+  p {
+    display: flex;
+    height: 50vh;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding: 2rem;
+    color: #c60202;
+    font-size: 15px;
+  }
+  
+  
+  .auth-form-container, .buiness-form {
+    display: flex;
+    flex-direction: column;
+    column-width: 50%;
+    align-content : center;
+    
+  
+  }
+  
+  @media screen and (min-width: 600px) {
+    .auth-form-container {
+      padding: 5rem;
+      border: 1px solid rgb(150, 2, 2);
+      border-radius: 10px;
+      border-width: 2px;
+      margin: 0.5rem;
+    }
+  }
+  
+  label {
+    text-align: left;
+    padding: 0.25rem 0;
+    color: rgb(150, 2, 2);
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+  }
+  
+  input {
+    margin: 0.5rem 0;
+    padding: 8px;
+    border-color: rgb(150, 2, 2);
+    border-radius: 10px;
+    border-width: 2px;
+    width: 60%;
+    padding: 8px;
+    inline-size: -webkit-fill-available;
+  }
+  
+  button {
+    border: none;
+    background-color: rgb(150, 2, 2);
+    padding: 20px;
+    border-radius: 10px;
+    cursor: pointer;
+    border-width: 6px;
+    color: #ffffff;
+    width: 10%;
+    text-align :center;
+    inline-size: -webkit-fill-available;
+  }
+  
+  form {
+    margin: 0 auto;
+    width: 100%;
+    font-family: 'PT Sans', sans-serif;
+  }
+  
+  table {
+    border-collapse: collapse;
+    width: 100%;
+  }
+  
+  td {
+    padding: 10px;
+    align-content: center;
+  }
+  tr{
+    padding: 10px;
+  
+  }
+  
+  input[type="file"] {
+    display: block;
+    margin-bottom: 10px;
+  }
+  
+  input[type="file"]:hover {
+    cursor: pointer;
+  }
+  
+  input[type="file"]::-webkit-file-upload-button {
+    background: rgb(150, 2, 2);
+    color: #fff;
+    padding: 8px 16px;
+    border-radius: 4px;
+    border: none;
+    font-size: 16px;
+    cursor: pointer;
+  }
+  
+  input[type="file"]::-webkit-file-upload-button:hover {
+    background: rgb(150, 2, 2);
+  }
